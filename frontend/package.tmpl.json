@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "cra-build-watch"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +38,8 @@
     ]
   },
   "keywords": [],
-  "author": "{{.AuthorName}}"
+  "author": "{{.AuthorName}}",
+  "devDependencies": {
+    "cra-build-watch": "^3.4.0"
+  }
 }
